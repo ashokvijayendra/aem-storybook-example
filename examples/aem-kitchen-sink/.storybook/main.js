@@ -4,6 +4,7 @@ module.exports = {
     `../components/**/*.stories.*`,
   ],
   addons: [
+    '@storybook/preset-scss',
     "@storybook/addon-a11y",
     "@storybook/addon-actions",
     "@storybook/addon-backgrounds",

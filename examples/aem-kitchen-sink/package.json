@@ -11,6 +11,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@storybook/preset-scss": "^1.0.3",
     "aem-sb-js-core-components": "*"
   },
   "devDependencies": {
