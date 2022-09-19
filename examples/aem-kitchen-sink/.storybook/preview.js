@@ -1,7 +1,6 @@
 import { addParameters, addDecorator } from '@storybook/client-api';
 import { withA11y } from '@storybook/addon-a11y';
 import { aemMetadata, GenericModel } from '@storybook/aem';
-
 import AEMCoreComponents from 'aem-sb-js-core-components';
 
 addDecorator(withA11y);
@@ -10,14 +9,12 @@ addDecorator(aemMetadata({
     require('../components/accordion/.content.xml'),
     require('../components/list/.content.xml'),
     require('../components/text/.content.xml'),
-    require('../components/aemtext/.content.xml'),
     ...AEMCoreComponents.components,
   ],
   models: {
     'Accordion': GenericModel,
     'Text': GenericModel,
     'List': GenericModel,
-    'person': require('../models/person'),
     ...AEMCoreComponents.models,
   }
 }));

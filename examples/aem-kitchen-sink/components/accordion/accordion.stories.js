@@ -21,3 +21,4 @@ export const Accordion = () => {
     resourceType: 'components/accordion',
   };
 };
+
